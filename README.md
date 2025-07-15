@@ -1,31 +1,35 @@
-# Manual Testing Projects
+# Project Testing Overview
 
-This repository contains my manual testing projects as a QA enthusiast. Each folder includes a specific functionality (e.g., login, search, form validation) that I tested manually using different testing techniques.
+This repository contains various testing activities performed on the website [https://demo.evershop.io](https://demo.evershop.io). The tests were designed to ensure the website’s core functionalities, stability, and security. Below is a detailed summary of the testing work carried out and updates made to this repository.
 
-## 📁 Projects Included
+---
 
-- 🔍 **Search Function**  
-  Test cases and report for testing a website's search bar
+## ✅ Functional Testing
 
-- 🔐 **Login Functionality**  
-  Manual testing for login form with valid/invalid inputs and boundary cases
+### Login Function
 
-- 📩 **Contact Form Validation**  
-  Checked error handling, form validation, and UX behavior
+- Tested multiple login methods:
+  - **Email and password login**
+  - **Social login integrations** (if available)
+- Verified:
+  - Correct handling of valid credentials.
+  - Proper error messages for invalid login attempts.
+  - Password masking and secure input handling.
+- Checked for potential security issues:
+  - SQL Injection attempts in login fields.
+  - XSS vulnerabilities in input fields.
 
-## 🛠️ Testing Techniques Used
+---
 
-- Functional Testing  
-- Boundary Value Analysis  
-- Negative Testing  
-- UI/UX Testing  
-- Exploratory Testing
 
-## 📄 Tools Used
 
-- Excel / Google Sheets for test cases  
-- Word / PDF for test reports  
-- Screenshot tools (Lightshot / Snipping Tool)
+## 🔗 Website Tested
 
-🧠 I’m continuously adding more projects as I learn and grow!
+All tests were performed on the following demo website:
+
+[https://demo.evershop.io](https://demo.evershop.io)
+
+---
+
+**Note:** Screenshots and test cases are available in the repository for reference.
 
