@@ -55,6 +55,20 @@ This repository contains various testing activities performed on the website [ht
 
 ---
 
+## ✅ Repository Updates
+
+- Uploaded all test case documents and notes.
+- Added screenshots demonstrating:
+  - Successful test results.
+  - Failures or issues discovered during testing.
+  - UI states before and after actions.
+- Updated the README.md file to document:
+  - Testing scope.
+  - Types of tests performed.
+  - Target website tested.
+
+---
+
 ## 🔗 Website Tested
 
 All tests were performed on the following demo website:
