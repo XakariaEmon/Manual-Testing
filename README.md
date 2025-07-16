@@ -21,7 +21,19 @@ This repository contains various testing activities performed on the website [ht
 
 ---
 
+## ✅ Manual Testing
 
+### Search Function
+
+- Manually tested the search functionality by:
+  - Searching for valid product names and verifying accurate results.
+  - Testing partial keywords and observing search suggestions.
+  - Checking for correct behavior when no results are found.
+- Verified:
+  - Speed and responsiveness of the search feature.
+  - Proper UI display of search results.
+
+---
 
 ## 🔗 Website Tested
 
