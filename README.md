@@ -47,6 +47,14 @@ This repository contains various testing activities performed on the website [ht
 
 ---
 
+## ✅ Smoke Testing
+
+- Performed smoke testing after key updates to ensure that:
+  - Core functionalities (login, search, navigation) remain operational.
+  - No critical bugs were introduced after recent changes.
+
+---
+
 ## 🔗 Website Tested
 
 All tests were performed on the following demo website:
