@@ -35,6 +35,18 @@ This repository contains various testing activities performed on the website [ht
 
 ---
 
+## ✅ Negative Testing
+
+- Executed test cases with invalid or unexpected inputs, including:
+  - Submitting empty forms.
+  - Entering invalid formats (e.g. special characters in usernames, invalid email formats).
+  - Navigating to non-existent pages.
+- Verified that the application:
+  - Shows appropriate error messages.
+  - Handles invalid input gracefully without crashes.
+
+---
+
 ## 🔗 Website Tested
 
 All tests were performed on the following demo website:
