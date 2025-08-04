@@ -1,0 +1,48 @@
+Functional Testing Report
+Project Name: Evershop Demo Website Functional Testing
+Tested Functions: Search, Login, Contact Form, Cart
+Tester: Md Zakaria Hossen Emon
+Test Date: [Insert Date]
+Test Environment: https://demo.evershop.io
+
+1. Scope of Testing
+The testing included functional behavior, UI validation, and error message verification for the following modules:
+
+Search Function
+
+Login Function
+
+Contact Form
+
+Cart Functionality
+
+2. Objective
+To ensure that all listed functions operate as intended, display correct results, handle edge cases properly, and provide accurate error messages when invalid inputs are used.
+
+3. Tools Used
+Excel – For documenting test cases and results
+
+Web Browser – For executing the tests
+
+4. Test Cases Summary
+| Function     | Test Scenario                | Expected Result                   | Actual Result                      | Status |
+|--------------|------------------------------|-----------------------------------|------------------------------------|--------|
+| Search       | Search with valid keyword    | Relevant products displayed       | Relevant products displayed        | Pass   |
+| Search       | Search with invalid keyword  | "No results found" message shown  | Blank page without message         | Fail   |
+| Login        | Login with valid credentials | User logged in successfully       | Works as expected                  | Pass   |
+| Login        |Login with invalid credentials| Error message displayed           | Error message not clear            | Fail   |
+| Contact Form | Submit with valid details    | Form submitted successfully       | Works as expected                  | Pass   |
+| Contact Form | Submit with empty fields     | Validation messages displayed     | No Validation messages displayed   | Fail   |
+| Cart         | Add product to cart          | Product appears in cart           | Works as expected                  | Pass   |
+| Cart         | Remove product from cart     | Product removed successfully      | Works as expected                  | Pass   |
+
+
+5. Defects Found
+Search Function: No "No results found" message for invalid keyword searches.
+
+Login Function: Error message unclear when using invalid credentials.
+
+6. Conclusion & Recommendations
+Most functions worked as expected, but the Search Function and Login error handling require improvement.
+
+Recommendation: Add proper error messages for invalid searches and make login error messages more descriptive for better user experience.
