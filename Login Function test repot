@@ -1,0 +1,14 @@
+🧾 Login Functionality Test Report
+✅ Overview
+This report outlines the testing methodology and objectives for verifying the login functionality of a web application. The goal was to ensure that the login process is secure, user-friendly, and functionally correct across various conditions. The test cases cover a broad range of scenarios including functional validation, UI compliance, negative testing, and security validation (e.g., input sanitization against SQL Injection and XSS).
+
+🔍 Objectives
+Validate the core functionality of the login form.
+
+Ensure security vulnerabilities are mitigated (e.g., XSS, SQLi).
+
+Check input field validations and error handling.
+
+Confirm the login UI behaves responsively across screen sizes.
+
+Ensure appropriate feedback is provided to the user.
