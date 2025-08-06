@@ -12,3 +12,17 @@ Check input field validations and error handling.
 Confirm the login UI behaves responsively across screen sizes.
 
 Ensure appropriate feedback is provided to the user.
+
+## 🧪 Test Types Covered
+
+| Type             | Description                                                                |
+|------------------|----------------------------------------------------------------------------|
+| Functional       | Tests successful and unsuccessful login attempts.                          |
+| Negative         | Tests invalid inputs such as blank fields, wrong credentials, etc.         |
+| UI & UX          | Ensures the interface is aligned, fields are labeled, and button actions.  |
+| Security         | Checks against common attacks like SQL Injection, XSS.                     |
+| Validation       | Confirms correct error messages appear for invalid inputs.                 |
+| Responsive       | Ensures layout and usability on different devices.                         |
+| Performance      | Measures login response time under various conditions.                     |
+
+---
