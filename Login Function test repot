@@ -26,3 +26,38 @@ Ensure appropriate feedback is provided to the user.
 | Performance      | Measures login response time under various conditions.                     |
 
 ---
+
+## 🔒 Security Test Methodology
+
+1. **Input Validation**  
+   - Verified that both email/username and password fields reject malformed or dangerous inputs.
+
+2. **SQL Injection Attempt**  
+   - Input: `' OR 1=1 --`  
+   - Goal: Ensure the system uses parameterized queries and is not vulnerable.
+
+3. **XSS Injection Test**  
+   - Input: `<script>alert("XSS")</script>`  
+   - Goal: Check whether user input is properly sanitized before rendering.
+
+4. **Brute Force Resilience**  
+   - Simulated rapid invalid login attempts to test account lockout or CAPTCHA mechanisms.
+
+5. **Error Message Clarity**  
+   - Ensured generic error messages like *"Invalid credentials"* are used to avoid exposing which field is incorrect.
+
+6. **Session Handling**  
+   - Confirmed secure session tokens are created on login with proper expiration and logout behavior.
+
+---
+
+## ⚙️ Test Execution Environment
+
+- **Browsers**: Chrome 117, Firefox 116
+- **Devices**: Desktop (Windows), Android (Mobile)
+- **Tools Used**: Manual Testing, Browser DevTools, Burp Suite
+- **Test Data Examples**:  
+   - Valid: `user@example.com / Password123`  
+   - Invalid: Random strings, script payloads, blank fields
+
+---
